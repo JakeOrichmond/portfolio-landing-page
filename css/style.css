@@ -1,7 +1,13 @@
 header {
 font-size: 50px;
+color: #fff;
+text-align: center;
+padding-top: 80px;
 }
 
+nav {
+	padding-bottom: 0px;
+}
 
 p {
 	color: green;
@@ -16,4 +22,58 @@ p {
 	background-image: url(../img/header-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+a {
+	font-family: 'Orbitron', sans-serif;
+}
+
+nav.navbar {
+	background-color: #DBFFA6;
+	font-family: 'Orbitron', sans-serif;
+}
+
+li a {
+	color: black
+}
+
+li a:hover {
+	background-color: #97E8B5
+}
+
+.active {
+	background-color: #97E8B5;
+}
+
+
+img {
+	border-radius: 180px;
+	border-width: thin;
+	border-style: none;
+}
+
+.btn-default {
+	background-color: grey;
+	border-radius: 10px;
+	border-width: thin;
+	border-style: none;
+	margin: 100px;
+}
+
+div.intro-lead-in {
+	font-family: 'Orbitron', sans-serif;
+}
+
+div.intro-heading {
+	font-family: 'Indie Flower', cursive;
+}
+
+#about h2.section-heading {
+	color: #A6FFE0
+}
+
+.btn-default:hover {
+background-color: #ABE897;
 }
