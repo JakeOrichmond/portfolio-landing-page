@@ -10,7 +10,8 @@ nav {
 }
 
 p {
-	color: green;
+	color: grey;
+	text-align: center;
 }
 
 .navbar-header img {
@@ -76,4 +77,9 @@ div.intro-heading {
 
 .btn-default:hover {
 background-color: #ABE897;
+}
+
+h2 {
+	color: white;
+	text-align: center;
 }
